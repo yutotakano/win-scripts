@@ -1,4 +1,4 @@
-% Play the nth video in the INF1B-OOP youtube playlist with `oop n`
+rem Play the nth video in the INF1B-OOP youtube playlist with `oop n`
 @echo off
 set pos=%1
 if %1==0 goto wrong
