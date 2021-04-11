@@ -1,5 +1,5 @@
-% Start playing music with `yta search term here`
-% Will keep autoplaying based on YouTube's autoplay thing
+rem Start playing music with `yta search term here`
+rem Will keep autoplaying based on YouTube's autoplay thing
 @echo off
 for /f "tokens=* usebackq" %%f in (`youtube-dl "ytsearch1:%*" --get-id`) do set playid=%%f
 set youtubeurl=https://www.youtube.com/watch?v=%playid%
